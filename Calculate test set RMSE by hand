@@ -1,0 +1,5 @@
+# Compute errors: error
+
+error <- p - test[["price"]]
+# Calculate RMSE
+sqrt(mean(error^2)
