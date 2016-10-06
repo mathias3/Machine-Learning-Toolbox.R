@@ -1,0 +1,8 @@
+# Set seed
+
+set.seed(42)
+# Shuffle row indices: rows
+
+rows <- sample(nrow(diamonds))
+# Randomly order data
+diamonds <- diamonds[rows, ]
